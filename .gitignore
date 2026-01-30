@@ -9,31 +9,23 @@
 .depend*
 
 /.vscode/ipch
-
 /doc/doxygen/output/html
-
 /test/fuzz/output
 /test/fuzz/lwip_fuzz
 /test/fuzz/lwip_fuzz2
 /test/fuzz/lwip_fuzz3
 /test/fuzz/.depend
-
 /build
-
 /contrib/examples/example_app/lwipcfg.h
 /contrib/examples/example_app/lwipopts_test.h
-
 /contrib/ports/unix/example_app/build
 /contrib/ports/unix/example_app/example_app
 /contrib/ports/unix/example_app/makefsdata
-
 /contrib/ports/unix/check/build
 /contrib/ports/unix/lib/build
 /contrib/ports/unix/check/lwip_unittests
-
 /contrib/ports/win32/example_app/build
 /contrib/ports/win32/lwipcfg_msvc.h
-
 /contrib/ports/win32/msvc/Debug
 /contrib/ports/win32/msvc/Debug unittests
 /contrib/ports/win32/msvc/Debug fuzz
@@ -65,3 +57,6 @@
 /contrib/apps/LwipMibCompiler/MibViewer/obj
 /contrib/apps/LwipMibCompiler/SharpSnmpLib/bin
 /contrib/apps/LwipMibCompiler/SharpSnmpLib/obj
+# macOS system files
+.DS_Store
+._*

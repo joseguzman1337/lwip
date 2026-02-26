@@ -16,6 +16,9 @@
 #define LWIP_TCP 1
 #define LWIP_UDP 1
 #define LWIP_RAW 1
+#define LWIP_CALLBACK_API 1
+#define LWIP_ALTCP 1
+#define LWIP_HTTPC 1
 
 /* Memory settings */
 #define MEM_ALIGNMENT 4
